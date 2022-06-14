@@ -1,0 +1,100 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    background-color: hsl(31, 77%, 52%);
+    padding: 20px;
+    text-align: center;
+  text-transform: uppercase;
+    position: sticky;
+
+}
+
+main{
+    background-color: hsl(0, 0%, 95%);
+    color: white;
+    display: flex;
+    width:50%;
+    justify-content: center;
+    align-items: center;
+    width:100vh;
+    margin: 10%; 
+    font-family: "Lexend Deca" ;
+    font-size: 15px;
+}
+main div{
+  
+    Font-size: 15px;
+}
+
+.first{
+    background-color: hsl(31, 77%, 52%);
+    width:450px;
+    height: 300px;
+    padding: 30px ;
+    border-radius: 3px;
+   
+}
+.second{
+    background-color: hsl(184, 100%, 22%);
+    width:450px;
+    height: 300px;
+    padding: 30px ;
+   
+}
+.third{
+    background-color: hsl(179, 100%, 13%);
+    width:450px;
+    height: 300px;
+    padding: 30px ;
+    border-radius: 4px;
+   
+   
+}
+#first-learn{
+    background-color: white;
+    color:rgb(202, 136, 13);
+    border-radius: 20px;
+    padding: 8px;
+    text-align: center;
+    margin-top: 35px;
+    text-decoration:none;
+   cursor:pointer;
+}
+#second-learn{
+    background-color: white;
+    color:rgb(77, 135, 77);
+    border-radius: 20px;
+    padding: 8px;
+    text-align: center;
+    margin-top: 35px;
+    text-decoration:none;
+   cursor:pointer;
+
+}
+#third-learn{
+    background-color: white;
+    color:rgb(7, 77, 7);
+    border-radius: 20px;
+    padding: 8px;
+    text-align: center;
+    margin-top: 35px;
+    text-decoration:none;
+   cursor:pointer;
+
+}
+img{
+    width:40px;
+    height: 30px; 
+}
+@media screen {
+    main{
+        font-size: 15px;
+        display:flex;
+        place-items: center ;
+        padding:0px;
+      
+    }
+}
